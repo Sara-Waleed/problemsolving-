@@ -1,63 +1,24 @@
 #include <iostream>
-#include<string>
+#include<math.h>
 using namespace std;
 
 int main()
 {
-/*
-long long  n,A;
-cin>>n>>A;
+long long A,B,C,D;
+cin>>A>>B>>C>>D;
+long long v= pow(A,B);
+long long r= pow(C,D);
 
-switch(n){
- case 1:
-     cout<<to_string(A);
-     break;
- case 2:
-    cout<<to_string(A/10);
-    break;
- case 3:
-    cout<<to_string(A/100);
-    break;
- case 4:
-    cout<<to_string(A/1000);
-    break;
- case 5:
-    cout<<to_string(A/10000);
-    break;
- case 6:
-    cout<<to_string(A/100000);
-    break;
- case 7:
-    cout<<to_string(A/1000000);
+ cout<<v<<endl;
+ cout<<r;
 
-
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  int n;
-  cin>>n;
-  if(n==7){
-        cout<<"yes";
-    }
+if(v>0&&r>0&&v>r)
+   cout<<"YES";
 
 
 else{
-    cout<<"no";
+    cout<<"NO";
 
-}
-
+   }
     return 0;
 }
-
